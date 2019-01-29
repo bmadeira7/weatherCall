@@ -1,32 +1,70 @@
-.App {
+body {
+  background: url(https://images.pexels.com/photos/125457/pexels-photo-125457.jpeg?cs=srgb&dl=blue-sky-bright-clouds-125457.jpg&fm=jpg);
+}
+
+.weather-card {
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  color: white;
   text-align: center;
-}
+  font-family: "Major Mono Display", monospace;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px solid rgb(255, 255, 255);
+  opacity: .8;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+       box-shadow: 0 8px 6px -6px black;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+       text-shadow: 1px 1px 0 rgba(0,0,0,.2), 2px 2px 0 rgba(0,0,0,.2), 3px 3px 0 rgba(0,0,0,.2);
 }
+.get-weather-btn {
+  background: blue;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 200%;
+  font-family: 'Tenor Sans', sans-serif;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-shadow: 1px 1px 0 rgba(0,0,0,.2), 2px 2px 0 rgba(0,0,0,.2), 3px 3px 0 rgba(0,0,0,.2);
+}
+.btn:hover,
+.btn-large:hover {
+  background-color: rgb(84, 122, 245);
+  color: blue;
+}
+.btn:focus {
+  background-color: rgb(84, 122, 245);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo{
+    margin-top: 0%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.get-input-form {
+  width: 30%;
+  background: rgba(136, 134, 134, 0.521);
+  margin-left: 35%;
+  margin-top: 1%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
 }
+.promise {
+  background: rgba(255, 255, 255, 0.322);
+  text-align: center;
+  font-family: "Jacques Francois", serif;
+  
+  font-size: 180%;
+  width: 50%;
+  margin-left: 25%;
+
+  -webkit-box-shadow: 0 10px 16px -6px black;
+  -moz-box-shadow: 0 10px 16px -6px black;
+       box-shadow: 0 10px 16px -6px black;
+
+       border-radius: 10px;
+}
+
