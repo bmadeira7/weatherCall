@@ -3,68 +3,104 @@ body {
 }
 
 .weather-card {
-    background: #1c92d2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+  background: #1c92d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #f2fcfe,
+    #1c92d2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f2fcfe,
+    #1c92d2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: white;
   text-align: center;
   font-family: "Major Mono Display", monospace;
-  margin-left: 10%;
-  margin-right: 10%;
+  /* margin-left: 10%;
+  margin-right: 10%; */
   border: 1px solid rgb(255, 255, 255);
-  opacity: .8;
+  opacity: 0.8;
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;
-       box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
 
-       text-shadow: 1px 1px 0 rgba(0,0,0,.2), 2px 2px 0 rgba(0,0,0,.2), 3px 3px 0 rgba(0,0,0,.2);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2), 2px 2px 0 rgba(0, 0, 0, 0.2),
+    3px 3px 0 rgba(0, 0, 0, 0.2);
+
+    height: 25vh;
 }
 .get-weather-btn {
-  background: blue;
+  background: rgb(89, 89, 92);
   margin-left: auto;
   margin-right: auto;
   font-size: 200%;
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: "Tenor Sans", sans-serif;
 
-  text-shadow: 1px 1px 0 rgba(0,0,0,.2), 2px 2px 0 rgba(0,0,0,.2), 3px 3px 0 rgba(0,0,0,.2);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2), 2px 2px 0 rgba(0, 0, 0, 0.2),
+    3px 3px 0 rgba(0, 0, 0, 0.2);
 }
 .btn:hover,
 .btn-large:hover {
-  background-color: rgb(84, 122, 245);
-  color: blue;
+  background-color: rgb(255, 255, 255);
+  color: rgb(66, 66, 70);
 }
 .btn:focus {
   background-color: rgb(84, 122, 245);
   color: white;
 }
 
-.logo{
-    margin-top: 0%;
+.logo {
+  margin-top: 0%;
 }
 
 .get-input-form {
   width: 30%;
-  background: rgba(136, 134, 134, 0.521);
+
   margin-left: 35%;
   margin-top: 1%;
   text-align: center;
   border-radius: 10px;
   padding: 10px;
+
+  background: #1c92d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #1c92d2,
+    #f2fcfe
+    
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #1c92d2,
+    #f2fcfe
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .promise {
   background: rgba(255, 255, 255, 0.322);
   text-align: center;
   font-family: "Jacques Francois", serif;
-  
+
   font-size: 180%;
   width: 50%;
   margin-left: 25%;
 
   -webkit-box-shadow: 0 10px 16px -6px black;
   -moz-box-shadow: 0 10px 16px -6px black;
-       box-shadow: 0 10px 16px -6px black;
+  box-shadow: 0 10px 16px -6px black;
 
-       border-radius: 10px;
+  border-radius: 10px;
 }
 
+input:-internal-autofill-previewed,
+input:-internal-autofill-selected,
+textarea:-internal-autofill-previewed,
+textarea:-internal-autofill-selected,
+select:-internal-autofill-previewed,
+select:-internal-autofill-selected {
+  background-color: rgb(255, 255, 255) !important;
+  background-image: none !important;
+  color: rgb(0, 0, 0) !important;
+}
