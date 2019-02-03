@@ -47,7 +47,7 @@
   color: rgb(66, 66, 70);
 }
 .btn:focus {
-  background-color: rgb(84, 122, 245);
+  background-color: #1c92d2;
   color: white;
 }
 
