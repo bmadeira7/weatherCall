@@ -1,6 +1,6 @@
-body {
+/* body {
   background: url(https://images.pexels.com/photos/125457/pexels-photo-125457.jpeg?cs=srgb&dl=blue-sky-bright-clouds-125457.jpg&fm=jpg);
-}
+} */
 
 .weather-card {
   background: #1c92d2; /* fallback for old browsers */
@@ -11,15 +11,14 @@ body {
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to bottom,
-    #f2fcfe,
-    #1c92d2
+    #1c92d2,
+    #f2fcfe
+    
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   color: white;
   text-align: center;
-  font-family: "Major Mono Display", monospace;
-  /* margin-left: 10%;
-  margin-right: 10%; */
+  font-family: 'Righteous', cursive;
   border: 1px solid rgb(255, 255, 255);
   opacity: 0.8;
   -webkit-box-shadow: 0 8px 6px -6px black;
@@ -31,12 +30,13 @@ body {
 
     height: 25vh;
 }
+
 .get-weather-btn {
   background: rgb(89, 89, 92);
   margin-left: auto;
   margin-right: auto;
   font-size: 200%;
-  font-family: "Tenor Sans", sans-serif;
+  font-family: 'Righteous', cursive;
 
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2), 2px 2px 0 rgba(0, 0, 0, 0.2),
     3px 3px 0 rgba(0, 0, 0, 0.2);
@@ -55,11 +55,15 @@ body {
   margin-top: 0%;
 }
 
-.get-input-form {
-  width: 30%;
 
-  margin-left: 35%;
+
+
+.get-input-form {
+  width: 70%;
+
+  margin: auto;
   margin-top: 1%;
+  margin-bottom: 1%;
   text-align: center;
   border-radius: 10px;
   padding: 10px;
@@ -68,23 +72,25 @@ body {
   background: -webkit-linear-gradient(
     to bottom,
     #1c92d2,
-    #f2fcfe
+    #98a4a7
     
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to bottom,
     #1c92d2,
-    #f2fcfe
+    #bfced1
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
 
 }
 .promise {
-  background: rgba(255, 255, 255, 0.322);
+  background: #1c92d2;
   text-align: center;
-  font-family: "Jacques Francois", serif;
-
+  font-family: 'Righteous', cursive;
+  color: white;
   font-size: 180%;
-  width: 50%;
+  
   margin-left: 25%;
 
   -webkit-box-shadow: 0 10px 16px -6px black;
@@ -92,15 +98,34 @@ body {
   box-shadow: 0 10px 16px -6px black;
 
   border-radius: 10px;
+  margin: auto;
+  width: 70%;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2), 2px 2px 0 rgba(0, 0, 0, 0.2),
+  3px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
-input:-internal-autofill-previewed,
-input:-internal-autofill-selected,
-textarea:-internal-autofill-previewed,
-textarea:-internal-autofill-selected,
-select:-internal-autofill-previewed,
-select:-internal-autofill-selected {
-  background-color: rgb(255, 255, 255) !important;
-  background-image: none !important;
-  color: rgb(0, 0, 0) !important;
+
+
+
+.pic1{
+width: 90vw;
+margin: auto;
 }
+.pic2{
+    width: 90vw;
+    margin: auto;
+    }
+.pic3{
+width: 90vw;
+margin: auto;
+}
+.pic4{
+    width: 90vw;
+    margin: auto;
+    }
+
+    .blkFoot{
+        color: white;
+        text-align: center;
+        
+    }

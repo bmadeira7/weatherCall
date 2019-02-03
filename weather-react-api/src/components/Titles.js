@@ -9,7 +9,7 @@ class Titles extends React.Component {
         
   <h1 className="logo">Weather Finder</h1>
   <hr></hr>
-            <h4>Find out temperatures anywhere on the planet</h4>
+            <h4 className="blah">Find out temperatures anywhere on the planet</h4>
         
        
       </div>
